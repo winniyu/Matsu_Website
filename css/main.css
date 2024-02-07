@@ -1,0 +1,511 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section, header, footer, nav, div, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 100;
+    background-color: #FFF6D7;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul a {
+    font-weight: 700;
+    color: #4d4d4d;
+    height: 50px;
+    display: block;
+    position: relative;
+    font-size: 20px;
+}
+
+.menu span:hover{
+    text-decoration: underline;
+}
+
+header ul a span {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    font-size: 20px;
+}
+
+section[data-role="section"] {
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 75px 0 0 0;
+    margin: 0;
+}
+
+#section-section1 {
+    background:  #FFF6D7
+}
+
+#section-section2 {
+    background:  #FFF6D7;
+}
+
+#section-section3 {
+    background:  #FFF6D7
+}
+
+#section-section4 {
+    background:  #FFF6D7;
+}
+
+#section-section5 {
+    background:  #FFF6D7;
+}
+
+body .titlepage{
+    background:  #FFF6D7;
+}
+
+
+body {
+    background-color: #FFF6D7;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    margin: 0px;
+}
+
+
+
+/*Section 1*/
+
+#section1 img{
+    max-width: 40%;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+#section1 h1 {
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 120px;
+    position: relative;
+    top: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+
+#section1 h2 {
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    margin-left: 35px;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#section1 p {
+    color: #7E6B2B;
+    position: relative;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-right: 35%;
+    margin-top: 100px;
+    line-height: 32px;
+}
+
+
+/*Section 2*/
+
+#section2 h3 {
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 120px;
+    text-align: center;
+    margin: auto;
+}
+
+#section2 h1 {
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 3% !important;
+}
+
+.my-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#section2 table{
+    text-align: center;
+}
+
+.my-container p {
+    font-size: 20px;
+    color: #7E6B2B;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+
+
+#map {
+    max-width: 60%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#temple {
+    max-width: 50%;
+    height: auto;  
+}
+
+/*Section 3*/
+
+#section3 h1,h2,h3,h4 {
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 20px;
+}
+
+#section3 p {
+    color: #7E6B2B;
+    position: relative;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#section3 {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.one{
+    grid-column: span 1.5;
+    grid-row: span 0.8;
+}
+
+.two{
+    grid-column: span 0.5;
+    grid-row: span 1;
+}
+.three{
+    grid-column: span 0.5;
+    grid-row: span 0.5;
+}
+
+.four{
+    grid-column: span 1.5;
+    grid-row: span 1;
+}
+
+.five {
+  grid-column: span 1.5;
+  grid-row: span 1;
+}
+
+.six {
+  grid-column: span 0.5;
+  grid-row: span 2;
+}
+
+.seven{
+    grid-column: span 1.5;
+    grid-row: span 1;
+}
+
+img {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+#baby{
+    max-width: 30%;
+    margin-left: 80px;
+}
+
+#sea{
+    max-width: 80%;
+    margin-right: 100px;
+    margin-bottom: 5%;
+    border: 3px solid #5c4908;
+}
+
+#mazu2{
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+
+#section3 h5 {
+    color: #7E6B2B;
+    position: relative;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.option{
+    position: relative;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+}
+
+/*Section 4*/
+.row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+}
+
+#section4 h1,h2{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 60px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#section4 p{
+    color: #7E6B2B;
+    position: relative;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#protrait{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    max-width: 40%;
+
+}
+
+/*Section 5*/
+#section5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#section5 h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 90px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-bottom: 30px;
+}
+
+
+.youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conclusion{
+    margin-top: 20px; 
+}
+
+.youtube iframe {
+    width: 900px;
+    height: 600px;
+    border: none;
+}
+
+#section5 h2{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 70px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#section5 h3{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 170px;
+    margin-bottom: 10px;
+}
+
+#section5 p{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 20px;
+    position: relative;
+    letter-spacing: .2rem;
+}
+
+.more{
+    margin-right: 200px;
+}
+
+
+#matzu3{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    max-width: 50%;
+    float: left;
+}
+
+/*title*/
+.titlepage{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titlepage h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 90px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+}
+
+.titlepage p{
+    color: #7E6B2B;
+    position: relative;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.titlepage h2{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 60px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 30px;
+}
+
+.titlepage h6{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+}
+
+/*video*/
+.videopage{
+    align-content: center;
+    align-items: center;
+}
+
+.videopage h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 60px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+.videopage h6{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+/*music*/
+
+.musicpage{
+    align-content: center;
+    align-items: center;
+}
+
+.musicpage h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 90px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+.musicpage h2,h6{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
